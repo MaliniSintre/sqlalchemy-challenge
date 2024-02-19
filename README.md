@@ -25,25 +25,25 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 5.	Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
 
 # Precipitation Analysis
-Find the most recent date in the dataset.
-Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
-Select only the "date" and "prcp" values.
-Load the query results into a Pandas DataFrame, and set the index to the "date" column.
-Sort the DataFrame values by "date".
-Plot the results by using the DataFrame plot method
-Use Pandas to print the summary statistics for the precipitation data.
+1. Find the most recent date in the dataset.
+2. Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
+3. Select only the "date" and "prcp" values.
+4. Load the query results into a Pandas DataFrame, and set the index to the "date" column.
+5. Sort the DataFrame values by "date".
+6. Plot the results by using the DataFrame plot method
+7. Use Pandas to print the summary statistics for the precipitation data.
 
 # Station Analysis
 1. Design a query to calculate the total number of stations in the dataset.
 2. Design a query to find the most-active stations (that is, the stations that have the most rows). To do so, complete the following steps:
-    o	List the stations and observation counts in descending order.
-    o	Which station id has the greatest number of observations?
-    o	Using the most-active station id, calculate the lowest, highest, and average temperatures.
+   - List the stations and observation counts in descending order.
+   - Which station id has the greatest number of observations?
+   - Using the most-active station id, calculate the lowest, highest, and average temperatures.
 
-3. Design a query to get the previous 12 months of temperature observation (TOBS) data. To do so, complete the following steps:
-o	Filter by the station that has the greatest number of observations.
-o	Query the previous 12 months of TOBS data for that station.
-o	Plot the results as a histogram with bins=12
+4. Design a query to get the previous 12 months of temperature observation (TOBS) data. To do so, complete the following steps:
+   - Filter by the station that has the greatest number of observations.
+   - Query the previous 12 months of TOBS data for that station.
+   - Plot the results as a histogram with bins=12
 
 # Part 2: Design Your Climate App
 
